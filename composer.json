@@ -1,0 +1,20 @@
+{
+    "name": "appcia/utils",
+    "description": "Collection of utility functions that services basic PHP types: arrays, strings, numbers etc",
+    "authors": [
+        {
+            "name": "ciapunek",
+            "email": "ciapunek@gmail.com"
+        }
+    ],
+    "type": "library",
+    "keywords": ["utils", "array", "string", "float", "value", "json", "php"],
+    "homepage": "http://appcia.pl",
+    "license": "MIT",
+    "require": {
+        "nette/utils": "2.2.*@dev"
+    },
+    "autoload": {
+        "psr-0": { "Appcia\\Utils": "src/" }
+    }
+}
